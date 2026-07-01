@@ -23,7 +23,6 @@
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
@@ -43,6 +42,9 @@
 build/
 Build/
 build-*/
+out/
+cmake-build-*/
+.cmake/
 
 # CMake generated files
 CMakeFiles/
@@ -57,9 +59,21 @@ compile_commands.json
 *.log
 *.bak
 *.swp
+*.swo
+*.user
+*.suo
 
-# vcpkg
+# IDEs
+.vscode/
+.idea/
+
+# Reports and Logs
+logs/
+reports/
+
+# Dependencies
 vcpkg_installed/
+_deps/
 
 # debug information files
 *.dwo

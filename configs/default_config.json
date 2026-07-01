@@ -1,0 +1,15 @@
+{
+    "log_level": "info",
+    "report_directory": "reports",
+    "worker_threads": 4,
+    "monitors": [
+        {
+            "path": "/etc",
+            "recursive": true,
+            "exclude_paths": [
+                "/etc/mtab"
+            ],
+            "allowed_extensions": []
+        }
+    ]
+}
